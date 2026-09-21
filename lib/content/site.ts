@@ -107,7 +107,7 @@ export const audiences: Audience[] = [
     subheading: "Allow your clients to experience room sizes, transitions, circulation, and furnishings in real space before anything is built.",
     paragraphs: [
       "Architectural decisions feel different when they can be experienced at full scale.",
-      "CDA Immersive Studio’s 1:1 floor plan projection environment allows architecture teams to walk through life-size layouts in real space, making it easier to evaluate circulation, sightlines, clearances, proportions, and overall flow before documentation is finalized.",
+      "Immersive Studio CDA’s 1:1 floor plan projection environment allows architecture teams to walk through life-size layouts in real space, making it easier to evaluate circulation, sightlines, clearances, proportions, and overall flow before documentation is finalized.",
       "The studio is designed for collaborative review, bringing together architects, consultants, clients, and selected project partners. A curated vendor showcase also allows materials, fixtures, finishes, and lighting to be evaluated in context.",
       "The result is a more engaging and productive decision-making process—one that can accelerate approvals, reduce late-stage revisions, and support a smoother transition from design development to construction-ready plans.",
     ],
@@ -126,7 +126,7 @@ export const audiences: Audience[] = [
     subheading: "Give your clients—and yourself—the opportunity to compare multiple properties from one central location.",
     paragraphs: [
       "Property searches can require significant time from both real estate professionals and their clients. Touring multiple locations adds travel, scheduling, and expense, while photos and listings often fail to communicate the true scale, flow, and feel of a space.",
-      "CDA Immersive Studio creates a more efficient way to evaluate prospective properties. Bring multiple floor plans into the studio, experience each one at 1:1 scale, and compare layouts before scheduling in-person visits.",
+      "Immersive Studio CDA creates a more efficient way to evaluate prospective properties. Bring multiple floor plans into the studio, experience each one at 1:1 scale, and compare layouts before scheduling in-person visits.",
       "By helping clients understand which spaces are most likely to fit their needs, the studio makes it easier to narrow the search, eliminate poor-fit properties earlier, and reserve valuable time for the locations worth seeing in person.",
     ],
     cta: { label: "Book a Session", href: "https://immersivestudiocda-book.as.me/booking-studio" },
@@ -143,7 +143,7 @@ export const audiences: Audience[] = [
     pageEyebrow: "FOR EXPERIENCE CREATORS",
     subheading: "For designers, filmmakers, artists, strategists, educators, and experience-makers working beyond the limits of traditional media.",
     paragraphs: [
-      "CDA Immersive Studio gives creative work a new dimension. Films can become environments. Ideas can unfold across an entire room. Installations, launches, performances, educational experiences, and gatherings can move beyond presentation and become something audiences actively experience.",
+      "Immersive Studio CDA gives creative work a new dimension. Films can become environments. Ideas can unfold across an entire room. Installations, launches, performances, educational experiences, and gatherings can move beyond presentation and become something audiences actively experience.",
       "Bring finished work into the studio, or collaborate with the team to expand an early concept into a fully immersive expression. Explore how image, sound, scale, movement, and atmosphere can work together to transport an audience somewhere new.",
       "This space invites people to become part of the experience rather than simply observe it.",
     ],
@@ -163,7 +163,7 @@ export const audiences: Audience[] = [
     subheading: "An invitation to experience the spaces you are creating before construction begins.",
     paragraphs: [
       "You should love your custom home before you ever move in.",
-      "At CDA Immersive Studio, homeowners can experience their future home at full scale before construction begins. Walk through each room, understand the flow between spaces, and evaluate how the layout will support the way your family actually lives.",
+      "At Immersive Studio CDA, homeowners can experience their future home at full scale before construction begins. Walk through each room, understand the flow between spaces, and evaluate how the layout will support the way your family actually lives.",
       "This immersive review creates an opportunity to refine important decisions early, reduce the risk of costly change orders and delays, and move into construction with greater clarity and confidence.",
       "Ensure the plans you approve become a home you will love living in for years to come.",
     ],
@@ -250,7 +250,7 @@ export const hero = {
   scrollCue: "The Experience",
   media: {
     src: "/assets/hero/hero-image2.jpeg",
-    alt: "Visitors walking through architectural plans projected across the walls and floor of CDA Immersive Studio",
+    alt: "Visitors walking through architectural plans projected across the walls and floor of Immersive Studio CDA",
   },
 } as const;
 
@@ -259,7 +259,7 @@ export const whatHappensHere = {
   headline:
     "Clarity before construction creates confidence throughout the process.",
   subheading: "Walk through your plans at full scale.",
-  body: "CDA Immersive Studio is a private visualization and creative experience space in Coeur d'Alene, designed for builders, architects, and creators to share their vision at full scale before it meets the real world. Walk through your plans at full scale. Gather your clients or team inside the vision. Explore space, proportion, material, movement, and possibility in an environment designed to make ideas feel real.",
+  body: "Immersive Studio CDA is a private visualization and creative experience space in Coeur d'Alene, designed for builders, architects, and creators to share their vision at full scale before it meets the real world. Walk through your plans at full scale. Gather your clients or team inside the vision. Explore space, proportion, material, movement, and possibility in an environment designed to make ideas feel real.",
   media: {
     src: "/assets/homepage/hero-placeholder.jpeg",
     alt: "Studio walkthrough placeholder",
@@ -358,7 +358,7 @@ export const foundingStudioPartners = {
   headline: "Founding Studio Partners",
   subheading: "A limited professional relationship for builders, architects, designers, and creative firms seeking ongoing access to the studio.",
   paragraphs: [
-    "CDA Immersive Studio is being built in relationship with the professionals shaping what comes next in North Idaho and the surrounding region.",
+    "Immersive Studio CDA is being built in relationship with the professionals shaping what comes next in North Idaho and the surrounding region.",
     "Studio partnerships are intended for firms that see immersive presentation as more than an occasional tool. Partners can integrate the studio into client onboarding, design review, project development, team collaboration, and special presentations throughout the year.",
     "The result is a differentiated experience that becomes part of how your firm works—and how your clients remember working with you.",
   ],
@@ -457,7 +457,7 @@ export const privateEvents = {
 export const privateEventsPage = {
   eyebrow: "Private Events",
   headline: "Gather Inside Something Unforgettable.",
-  body: "A private immersive setting for presentations, launches, dinners, creative gatherings, and intimate events. CDA Immersive Studio can transform around the purpose of the gathering. Host a private presentation surrounded by the work. Introduce a new idea through image, sound, and atmosphere. Bring a team together inside a shared visual environment. Create a dinner, conversation, performance, or celebration that could not happen in a conventional venue. Our event experiences are intentionally selective and developed in collaboration with each host.",
+  body: "A private immersive setting for presentations, launches, dinners, creative gatherings, and intimate events. Immersive Studio CDA can transform around the purpose of the gathering. Host a private presentation surrounded by the work. Introduce a new idea through image, sound, and atmosphere. Bring a team together inside a shared visual environment. Create a dinner, conversation, performance, or celebration that could not happen in a conventional venue. Our event experiences are intentionally selective and developed in collaboration with each host.",
   gallery: [
     {
       id: "presentation",
@@ -661,7 +661,7 @@ export const faqPage = {
           answer: "Yes. Architectural floor plans can be prepared and projected at a true 1:1 scale, allowing guests to move through the layout and experience spatial relationships directly."
         },
         {
-          question: "Is CDA Immersive Studio only for architecture?",
+          question: "Is Immersive Studio CDA only for architecture?",
           answer: "No. Architecture is a primary use of the studio, but the environment can also support creative presentations, visual storytelling, installations, launches, team experiences, educational programming, and select private events."
         }
       ],
@@ -692,7 +692,7 @@ export const faqPage = {
         },
         {
           question: "Do you offer professional memberships?",
-          answer: "CDA Immersive Studio is developing a limited founding partner program for builders, architects, designers, and creative firms seeking recurring studio access. Partnership details are available by request."
+          answer: "Immersive Studio CDA is developing a limited founding partner program for builders, architects, designers, and creative firms seeking recurring studio access. Partnership details are available by request."
         }
       ],
     },

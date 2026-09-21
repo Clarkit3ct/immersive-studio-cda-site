@@ -7,11 +7,11 @@ export {
 export { brandTypography, typeScale } from "./typography";
 
 export const brand = {
-  name: "CDA Immersive Studio",
+  name: "Immersive Studio CDA",
   location: "CDA",
   logo: {
     src: "/logo/logo-off-white.png",
-    alt: "CDA Immersive Studio",
+    alt: "Immersive Studio CDA",
     width: 3000,
     height: 2000,
   },
@@ -21,11 +21,11 @@ export const brand = {
 
 
 export const brand2 = {
-  name: "CDA Immersive Studio",
+  name: "Immersive Studio CDA",
   location: "CDA",
   logo: {
     src: "/logo/letter-logo-white.png",
-    alt: "CDA Immersive Studio",
+    alt: "Immersive Studio CDA",
     width: 3000,
     height: 2000,
   },
