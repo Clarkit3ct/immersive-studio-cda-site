@@ -28,7 +28,7 @@ export function Hero() {
         </p>
 
         <a
-          href="https://immersivestudiocda-book.as.me/booking-studio"
+          href="https://immersivestudiocda-book.as.me/"
           target="_blank"
           rel="noopener noreferrer"
           className="cta mt-8 text-label text-off-white transition-colors hover:bg-off-white hover:text-onyx"
