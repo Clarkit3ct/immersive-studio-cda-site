@@ -4,6 +4,7 @@ import { brand } from "@/lib/brand";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: false },
   title: "Coming Soon",
   description: "We are working on something exciting. Check back soon.",
 };

@@ -3,6 +3,7 @@ import { FoundingPageSection } from "@/components/sections/founding-page";
 import { studioMemberPage } from "@/lib/content/studio-member";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/studio-member" },
   title: studioMemberPage.meta.title,
   description: studioMemberPage.meta.description,
 };

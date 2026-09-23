@@ -4,6 +4,7 @@ import { ScrollToTop } from "@/components/scroll-to-top";
 import { contact, contactPage as copy } from "@/lib/content/site";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/contact" },
   title: "Contact Us",
 };
 

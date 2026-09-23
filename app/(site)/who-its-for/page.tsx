@@ -3,6 +3,7 @@ import { WhoItsFor } from "@/components/sections/who-its-for";
 import { whoItsForPage } from "@/lib/content/site";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/who-its-for" },
   title: whoItsForPage.eyebrow,
 };
 

@@ -2,6 +2,9 @@ import { withNextVideo } from "next-video/process";
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  async redirects() {
+    return [{ source: "/vendors", destination: "/showcase", permanent: true }];
+  },
   turbopack: {
     rules: {
       "*.mov": {

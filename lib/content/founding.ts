@@ -80,10 +80,9 @@ export const foundingPage: OfferPageContent = {
       "12-month founding term, renewing in 12-month terms. Rates may adjust at renewal, but your founding discount always applies for as long as your membership stays active.",
   },
   narrative:
-    "Even good drawings are hard to picture. Clients sign off on spaces they haven’t truly experienced, then change them mid-build. At Immersive Studio, they step inside their future space at true 1:1 scale, projected across 2,800± sq ft of floor and a 50± ft wall. Design questions get answered while they’re still erasable, and clients say yes with confidence.",
+    "Even good drawings are hard to picture. Clients sign off on spaces they haven’t truly experienced, then change them mid-build. At Immersive Studio, they step inside their future space at true 1:1 scale, projected across 3,500± sq ft of floor and a 50± ft wall. Design questions get answered while they’re still erasable, and clients say yes with confidence.",
   stats: [
     { value: "1:1", label: "True-scale floor & elevation projection" },
-    { value: "$5K to $25K", label: "Typical cost of one field change order" },
     { value: "$900", label: "À la carte session: the cheapest insurance in construction" },
   ],
   benefitsHeading: "Founding member benefits",
