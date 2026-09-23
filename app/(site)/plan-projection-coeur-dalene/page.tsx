@@ -12,8 +12,8 @@ const content: LandingContent = {
   "headline": "Coeur d'Alene's full-scale plan projection studio",
   "intro": "Floor plans at 1:1 scale on a 3,500± sq ft projection floor, wall elevations at full height, and private sessions for architects, builders, designers, real estate professionals, and homeowners. Downtown at 216 E Coeur d'Alene Ave.",
   "image": {
-    "src": "/assets/real/plan-detail-rooms.jpg",
-    "alt": "Detail of a projected floor plan on the studio floor showing room names and dimensions"
+    "src": "/assets/real/studio-session-walkthrough.jpg",
+    "alt": "A studio session in progress: clients walking a floor plan projected at full scale, with elevations and a rendering on the walls"
   },
   "sections": [
     {

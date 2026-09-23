@@ -36,10 +36,10 @@ export const metadata: Metadata = {
     url: "/",
     images: [
       {
-        url: "/assets/real/walking-the-plan.jpg",
-        width: 1600,
-        height: 1200,
-        alt: "A client standing on a floor plan projected at full scale at Immersive Studio CDA",
+        url: "/assets/real/studio-session-walkthrough.jpg",
+        width: 1500,
+        height: 2000,
+        alt: "A studio session in progress: clients walking a floor plan projected at full scale, with elevations and a rendering on the walls",
       },
     ],
   },

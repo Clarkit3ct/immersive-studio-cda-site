@@ -94,8 +94,8 @@ export const audiences: Audience[] = [
     },
     cta: { label: "Book a Session", href: "https://immersivestudiocda-book.as.me/" },
     media: {
-      hero: { label: "Walking the plan at full scale", src: "/assets/real/walking-the-plan.jpg", alt: "A client standing on a floor plan projected at full scale, with the home's elevations lit on the wall" },
-      inline: { label: "Rooms and dimensions on the floor", src: "/assets/real/plan-detail-rooms.jpg", alt: "Detail of a projected floor plan on the studio floor showing room names and dimensions" },
+      hero: { label: "Pre-construction walkthrough", src: "/assets/who-is-it-for/builder/main-image.jpg" },
+      inline: { label: "Studio details and projection", src: "/assets/who-is-it-for/builder/second-image.jpg" },
     },
   },
   {
@@ -113,8 +113,8 @@ export const audiences: Audience[] = [
     ],
     cta: { label: "Book a Session", href: "https://immersivestudiocda-book.as.me/" },
     media: {
-      hero: { label: "Plan on the floor, elevations on the wall", src: "/assets/real/plan-and-elevations-mezzanine.jpg", alt: "The projection floor seen from the mezzanine, a floor plan at full scale with elevations on both walls" },
-      inline: { label: "A client inside the plan", src: "/assets/real/plan-wide-with-client.jpg", alt: "A client walking a full-scale floor plan while the elevations are lit on the wall" },
+      hero: { label: "1:1 architectural projection", src: "/assets/who-is-it-for/architech/main-image.jpg" },
+      inline: { label: "Collaborative design review", src: "/assets/who-is-it-for/architech/second-image.jpg" },
     },
   },
   {

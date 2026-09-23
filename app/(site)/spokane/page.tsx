@@ -12,8 +12,8 @@ const content: LandingContent = {
   "headline": "Floor plan projection, 30 minutes from Spokane",
   "intro": "There is no full-scale plan projection studio in Spokane. The nearest one is open in downtown Coeur d'Alene: a 3,500± sq ft floor that shows architectural plans at true 1:1 scale, with elevations on two 50' × 13' walls. About 30 minutes east on I-90.",
   "image": {
-    "src": "/assets/real/walking-the-plan.jpg",
-    "alt": "A client standing on a floor plan projected at full scale, with the home's elevations lit on the wall"
+    "src": "/assets/real/studio-session-walkthrough.jpg",
+    "alt": "A studio session in progress: clients walking a floor plan projected at full scale, with elevations and a rendering on the walls"
   },
   "sections": [
     {
