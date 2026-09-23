@@ -17,12 +17,33 @@ const instrumentSerif = Instrument_Serif({
   display: "swap",
 });
 
+const SITE_URL = "https://www.immersivestudiocda.com";
+const SITE_DESCRIPTION =
+  "Walk your floor plans at full scale. A 1:1 projection studio in downtown Coeur d'Alene for architects, builders, real estate professionals, and homeowners.";
+
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: {
-    default: `${brand.name} ${brand.location}`,
+    default: brand.name,
     template: `%s | ${brand.name}`,
   },
-  description: brand.tagline,
+  description: SITE_DESCRIPTION,
+  openGraph: {
+    type: "website",
+    siteName: brand.name,
+    title: brand.name,
+    description: SITE_DESCRIPTION,
+    url: "/",
+    images: [
+      {
+        url: "/assets/real/studio-session-walkthrough.jpg",
+        width: 1500,
+        height: 2000,
+        alt: "A studio session in progress: clients walking a floor plan projected at full scale, with elevations and a rendering on the walls",
+      },
+    ],
+  },
+  twitter: { card: "summary_large_image" },
 };
 
 export default function RootLayout({

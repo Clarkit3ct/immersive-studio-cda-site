@@ -1,0 +1,30 @@
+import type { MetadataRoute } from "next";
+import { audiences } from "@/lib/content/site";
+
+const BASE = "https://www.immersivestudiocda.com";
+
+export default function sitemap(): MetadataRoute.Sitemap {
+  const lastModified = new Date();
+  const paths = [
+    "/",
+    "/who-its-for",
+    ...audiences.map((audience) => `/who-its-for/${audience.slug}`),
+    "/membership",
+    "/founding",
+    "/studio-member",
+    "/private-events",
+    "/showcase",
+    "/faq",
+    "/founder-story",
+    "/contact",
+    "/floor-plan-walkthrough",
+    "/plan-projection-coeur-dalene",
+    "/spokane",
+  ];
+  return paths.map((path) => ({
+    url: `${BASE}${path}`,
+    lastModified,
+    changeFrequency: path === "/" ? "weekly" : "monthly",
+    priority: path === "/" ? 1 : 0.7,
+  }));
+}

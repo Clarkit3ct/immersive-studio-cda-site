@@ -47,21 +47,6 @@ export function MembershipPageSection() {
               </p>
             </div>
 
-            {/* Stats */}
-            <div className="grid gap-4 border-t border-beige pt-12 md:grid-cols-3 md:gap-6">
-              {copy.stats.map((stat) => (
-                <article
-                  key={stat.value}
-                  className="flex flex-col items-center gap-4 bg-beige/35 px-8 py-10 text-center"
-                >
-                  <p className="text-h2 font-secondary text-onyx">
-                    {stat.value}
-                  </p>
-                  <p className="text-label text-dove">{stat.label}</p>
-                </article>
-              ))}
-            </div>
-
           </div>
         </section>
 
@@ -142,6 +127,16 @@ export function MembershipPageSection() {
                 >
                   {copy.cta.label}
                 </Link>
+                {copy.secondaryCta ? (
+                  <a
+                    href={copy.secondaryCta.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="cta text-label text-onyx/70 transition-colors hover:text-onyx"
+                  >
+                    {copy.secondaryCta.label}
+                  </a>
+                ) : null}
                 {copy.cta.supportingLine && (
                   <p className="max-w-prose text-body font-primary text-onyx/60 mt-4">
                     {copy.cta.supportingLine}

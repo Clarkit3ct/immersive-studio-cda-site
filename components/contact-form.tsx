@@ -4,6 +4,7 @@ import { useState, type FormEvent, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import { Toast } from "@/components/ui/toast";
 import { contactPage } from "@/lib/content/site";
+import { submitContactForm } from "@/app/(site)/contact/actions";
 
 const copy = contactPage.form;
 
@@ -32,15 +33,24 @@ function ContactFormInner() {
     setPending(true);
     setError(null);
 
-    // Construct email parameters
-    const targetEmail = "contact@immersivestudiocda.com";
-    const subject = encodeURIComponent(`Website Inquiry: ${category}`);
-    const body = encodeURIComponent(
-      `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`
-    );
+    // Send to the studio inbox through the server action (Make webhook).
+    const result = await submitContactForm({ name, email, category, message });
 
-    // Open default mail client
-    window.location.href = `mailto:${targetEmail}?subject=${subject}&body=${body}`;
+    if (!result.ok) {
+      setPending(false);
+      setError(result.error ?? "Something went wrong. Please try again.");
+      return;
+    }
+
+    if (!result.delivered) {
+      // Webhook not configured yet: fall back to the visitor's email client.
+      const targetEmail = "contact@immersivestudiocda.com";
+      const subject = encodeURIComponent(`Website Inquiry: ${category}`);
+      const body = encodeURIComponent(
+        `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`
+      );
+      window.location.href = `mailto:${targetEmail}?subject=${subject}&body=${body}`;
+    }
 
     setPending(false);
     form.reset();

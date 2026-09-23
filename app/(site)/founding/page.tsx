@@ -3,6 +3,7 @@ import { FoundingPageSection } from "@/components/sections/founding-page";
 import { foundingPage } from "@/lib/content/founding";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/founding" },
   title: foundingPage.meta.title,
   description: foundingPage.meta.description,
 };

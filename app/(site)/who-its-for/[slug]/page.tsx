@@ -24,6 +24,7 @@ export async function generateMetadata({
   return {
     title: audience.label,
     description: audience.subheading ?? audience.body,
+    alternates: { canonical: `/who-its-for/${slug}` },
   };
 }
 
